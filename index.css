@@ -218,7 +218,8 @@ main {
 
 .pj1,
 .pj2,
-.pj3 {
+.pj3,
+.pj4 {
     background-color: white;
     color: black;
     width: 50%;
@@ -261,9 +262,7 @@ main {
     height: auto;
 }
 
-.pj1 .line,
-.pj2 .line,
-.pj3 .line {
+.project .line {
     width: 100%;
     height: 1px;
     background-color: black;
