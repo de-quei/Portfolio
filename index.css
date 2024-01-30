@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*상단 내비바*/
+nav {
+    color: #435399;
+    background-color: #f2f2f2;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav .left-nav,
+nav .right-nav {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+nav .left-nav p {
+    margin-left: 30px;
+    font-family: inter;
+}
+
+nav .mid-nav p {
+    font-size: 3rem;
+    font-family: italiana;
+}
+
+nav .right-nav p {
+    margin-right: 30px;
+    font-family: inter;
+}
+
+/*메인 1 (이름과 사진)*/
+main {
+    background-color: #f2f2f2;
+}
+
+.me img {
+    max-width: 35%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+/*메인 2 (소개)*/
+.introduction {
+    background-color: #435399;
+    color: #ffffff;
+    padding: 80px 150px 80px 150px;
+}
+
+.introduction-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction-content .content-left,
+.introduction-content .content-right {
+    padding: 50px 0 0 0;
+}
+
+/*메인 3 (감성사진!)*/
+.gamsung {
+    display: flex;
+}
+
+.gamsung img {
+    width: 50%;
+    height: auto;
+}
+
+/*메인 4 (바이오그래피)*/
+.biography {
+    padding: 80px 150px 80px 150px;
+    background-color: #f2f2f2;
+}
+
+.biography .bio-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.biography .bio-title p:nth-child(1){
+    font-size: 3rem;
+    font-weight: medium;
+    color: #435399;
+}
+
+.biography .bio-title p:nth-child(2){
+    font-size: 1.3rem;
+    color: #ff5f85;
+}
+
+.biography .content1,
+.biography .content2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.biography .content1 .stack,
+.biography .content1 .tools,
+.biography .content2 .awards,
+.biography .content2 .certicifate {
+    color: #435399;
+    width: 40%;
+    height: auto;
+}
+
+.biography .content1 .stack p,
+.biography .content1 .tools p,
+.biography .content2 .awards p,
+.biography .content2 .certicifate p {
+    font-size: 2rem;
+}
+
+.biography .content1 .line,
+.biography .content2 .line {
+    width: 100%;
+    height: 2px;
+    background-color: #435399;
+    margin: 20px 0 20px 0;
+}
+
+.biography .content1 .stack ul,
+.biography .content1 .tools ul,
+.biography .content2 .awards ul,
+.biography .content2 .certicifate ul {
+    list-style: none;
+}
+
+.biography .content1 .stack li,
+.biography .content1 .tools li,
+.biography .content2 .awards li,
+.biography .content2 .certicifate li {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
