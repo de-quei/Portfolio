@@ -271,3 +271,26 @@ main {
 .explain p {
     margin-bottom: 10px;
 }
+
+/*footer*/
+footer {
+    background-color: #435399;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer .icon {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer .icon img {
+    width: 15%;
+    height: auto;
+}
+
+footer p {
+    margin-top: 10px;
+}
