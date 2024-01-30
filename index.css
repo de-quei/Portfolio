@@ -1,9 +1,10 @@
+/* 전역 스타일 초기화 */
 * {
     padding: 0;
     margin: 0;
 }
 
-/*상단 내비바*/
+/* 상단 내비바 */
 nav {
     color: #435399;
     background-color: #f2f2f2;
@@ -19,8 +20,8 @@ nav .right-nav {
     font-size: 1.5rem;
 }
 
-nav .left-nav p {
-    margin-left: 30px;
+nav .left-nav p,
+nav .right-nav p {
     font-family: inter;
 }
 
@@ -29,29 +30,32 @@ nav .mid-nav p {
     font-family: italiana;
 }
 
-nav .right-nav p {
-    margin-right: 30px;
-    font-family: inter;
+nav .left-nav p {
+    margin-left: 30px;
 }
 
-/*메인 1 (이름과 사진)*/
+nav .right-nav p {
+    margin-right: 30px;
+}
+
+/* 메인 1 (이름과 사진) */
 main {
     background-color: #f2f2f2;
 }
 
 .me img {
-    max-width: 35%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     position: relative;
 }
 
-/*메인 2 (소개)*/
+/* 메인 2 (소개) */
 .introduction {
     background-color: #435399;
     color: #ffffff;
-    padding: 80px 150px 80px 150px;
+    padding: 80px 150px;
 }
 
 .introduction-content {
@@ -64,7 +68,7 @@ main {
     padding: 50px 0 0 0;
 }
 
-/*메인 3 (감성사진!)*/
+/* 메인 3 (감성사진!) */
 .gamsung {
     display: flex;
 }
@@ -74,25 +78,25 @@ main {
     height: auto;
 }
 
-/*메인 4 (바이오그래피)*/
+/* 메인 4 (바이오그래피) */
 .biography {
-    padding: 80px 150px 80px 150px;
+    padding: 80px 150px;
     background-color: #f2f2f2;
 }
 
-.biography .bio-title{
+.biography .bio-title {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-.biography .bio-title p:nth-child(1){
+.biography .bio-title p:nth-child(1) {
     font-size: 3rem;
     font-weight: medium;
     color: #435399;
 }
 
-.biography .bio-title p:nth-child(2){
+.biography .bio-title p:nth-child(2) {
     font-size: 1.3rem;
     color: #ff5f85;
 }
@@ -125,7 +129,7 @@ main {
     width: 100%;
     height: 2px;
     background-color: #435399;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
 .biography .content1 .stack ul,
@@ -143,9 +147,9 @@ main {
     margin-top: 20px;
 }
 
-/*메인 5 (경험 소개)*/
+/* 메인 5 (경험 소개) */
 .experience {
-    padding: 80px 0 80px 0;
+    padding: 80px 0;
     background-color: #ffffff;
     color: #435399;
 }
@@ -164,17 +168,17 @@ main {
     margin-top: 10px;
 }
 
-/*오토 슬라이드*/
+/* 오토 슬라이드 */
 .auto-slide {
     overflow: hidden;
     position: relative;
     width: 100%;
     height: auto;
-    margin: 100px 0 30px 0;
+    margin: 100px 0 30px;
 }
 
 .img-box {
-    width: 4000px; 
+    width: 4000px;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -195,9 +199,9 @@ main {
     }
 }
 
-/*메인 6 (프로젝트 모음집)*/
+/* 메인 6 (프로젝트 모음집) */
 .project {
-    padding: 80px 0 80px 0;
+    padding: 80px 0;
     background-color: #435399;
     color: #ffffff;
 }
@@ -213,7 +217,7 @@ main {
 
 .project .project-title p:nth-child(2) {
     font-size: 1.3rem;
-    margin: 10px 0 60px 0;
+    margin: 10px 0 60px;
 }
 
 .pj1,
@@ -224,17 +228,16 @@ main {
     height: auto;
     margin: 0 auto;
     margin-top: 30px;
-    padding: 30px 60px 30px 60px;
+    padding: 30px 60px;
     border-radius: 15px;
 }
 
-.pj-title p:nth-child(1){
+.pj-title p:nth-child(1),
+.pj-title p:nth-child(2) {
     text-align: center;
-    font-size: 1.5rem;
 }
 
-.pj-title p:nth-child(2){
-    text-align: center;
+.pj-title p:nth-child(2) {
     color: #7c7c7c;
     margin-top: 10px;
 }
@@ -245,8 +248,9 @@ main {
     margin-top: 50px;
 }
 
-.pj-content .any-file {
-    width: 48%; 
+.pj-content .any-file,
+.pj-content .explain {
+    width: 48%;
 }
 
 .pj-content .any-file video,
@@ -255,24 +259,19 @@ main {
     height: auto;
 }
 
-.pj-content .explain {
-    width: 48%;
-    height: auto;
-}
-
 .pj1 .line,
 .pj2 .line {
     width: 100%;
     height: 1px;
     background-color: black;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
 .explain p {
     margin-bottom: 10px;
 }
 
-/*footer*/
+/* 푸터 */
 footer {
     background-color: #435399;
     color: #ffffff;
@@ -287,8 +286,7 @@ footer .icon {
 }
 
 footer .icon img {
-    width: 15%;
-    height: auto;
+    width: 10%;
 }
 
 footer p {
