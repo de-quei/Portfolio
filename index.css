@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
+
 /*상단 내비바*/
 nav {
     color: #435399;
@@ -11,6 +19,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    border: 1px solid #c6c6c6;
 }
 
 nav .left-nav,
