@@ -19,6 +19,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     display: flex;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav .left-nav,
@@ -47,6 +52,10 @@ nav .right-nav p {
 /*메인 1 (이름과 사진)*/
 main {
     background-color: #f2f2f2;
+}
+
+.me {
+    padding-top: 6em;
 }
 
 .me img {
