@@ -19,7 +19,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    border: 1px solid #c6c6c6;
 }
 
 nav .left-nav,
@@ -31,6 +30,7 @@ nav .right-nav {
 nav .left-nav p {
     margin-left: 1.875em;
     font-family: inter;
+    cursor: pointer;
 }
 
 nav .mid-nav p {
@@ -41,6 +41,7 @@ nav .mid-nav p {
 nav .right-nav p {
     margin-right: 1.875em;
     font-family: inter;
+    cursor: pointer;
 }
 
 /*메인 1 (이름과 사진)*/
