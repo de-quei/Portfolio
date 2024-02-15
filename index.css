@@ -7,7 +7,7 @@
 nav {
     color: #435399;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 0.625em;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -16,21 +16,21 @@ nav {
 nav .left-nav,
 nav .right-nav {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 nav .left-nav p {
-    margin-left: 30px;
+    margin-left: 1.875em;
     font-family: inter;
 }
 
 nav .mid-nav p {
-    font-size: 3rem;
+    font-size: 3em;
     font-family: italiana;
 }
 
 nav .right-nav p {
-    margin-right: 30px;
+    margin-right: 1.875em;
     font-family: inter;
 }
 
@@ -51,7 +51,7 @@ main {
 .introduction {
     background-color: #435399;
     color: #ffffff;
-    padding: 80px 150px 80px 150px;
+    padding: 5em 9.375em 5em 9.375em;
 }
 
 .introduction-content {
@@ -61,7 +61,7 @@ main {
 
 .introduction-content .content-left,
 .introduction-content .content-right {
-    padding: 50px 0 0 0;
+    padding: 3.125em 0 0 0;
 }
 
 /*메인 3 (감성사진!)*/
@@ -76,7 +76,7 @@ main {
 
 /*메인 4 (바이오그래피)*/
 .biography {
-    padding: 80px 150px 80px 150px;
+    padding: 5em 9.375em 5em 9.375em;
     background-color: #f2f2f2;
 }
 
@@ -87,13 +87,13 @@ main {
 }
 
 .biography .bio-title p:nth-child(1){
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: medium;
     color: #435399;
 }
 
 .biography .bio-title p:nth-child(2){
-    font-size: 1.3rem;
+    font-size: 1.3em;
     color: #ff5f85;
 }
 
@@ -101,7 +101,7 @@ main {
 .biography .content2 {
     display: flex;
     justify-content: space-between;
-    padding-top: 80px;
+    padding-top: 5em;
 }
 
 .biography .content1 .stack,
@@ -117,15 +117,15 @@ main {
 .biography .content1 .tools p,
 .biography .content2 .awards p,
 .biography .content2 .certicifate p {
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .biography .content1 .line,
 .biography .content2 .line {
     width: 100%;
-    height: 2px;
+    height: 0.125em;
     background-color: #435399;
-    margin: 20px 0 20px 0;
+    margin: 1.25em 0 1.25em 0;
 }
 
 .biography .content1 .stack ul,
@@ -139,13 +139,13 @@ main {
 .biography .content1 .tools li,
 .biography .content2 .awards li,
 .biography .content2 .certicifate li {
-    font-size: 1.5rem;
-    margin-top: 20px;
+    font-size: 1.5em;
+    margin-top: 1.25em;
 }
 
 /*메인 5 (경험 소개)*/
 .experience {
-    padding: 80px 0 80px 0;
+    padding: 5em 0 5em 0;
     background-color: #ffffff;
     color: #435399;
 }
@@ -155,13 +155,13 @@ main {
 }
 
 .experience .experience-title p:nth-child(1) {
-    font-size: 4rem;
+    font-size: 4em;
     font-family: italiana;
 }
 
 .experience .experience-title p:nth-child(2) {
-    font-size: 1.3rem;
-    margin-top: 10px;
+    font-size: 1.3em;
+    margin-top: 0.625em;
 }
 
 /*오토 슬라이드*/
@@ -170,7 +170,7 @@ main {
     position: relative;
     width: 100%;
     height: auto;
-    margin: 100px 0 30px 0;
+    margin: 6.25em 0 1.875em 0;
 }
 
 .img-box {
@@ -197,7 +197,7 @@ main {
 
 /*메인 6 (프로젝트 모음집)*/
 .project {
-    padding: 80px 0 80px 0;
+    padding: 5em 0 5em 0;
     background-color: #435399;
     color: #ffffff;
 }
@@ -207,13 +207,13 @@ main {
 }
 
 .project .project-title p:nth-child(1) {
-    font-size: 4rem;
+    font-size: 4em;
     font-family: italiana;
 }
 
 .project .project-title p:nth-child(2) {
-    font-size: 1.3rem;
-    margin: 10px 0 60px 0;
+    font-size: 1.3em;
+    margin: 0.625em 0 3.75em 0;
 }
 
 .pj1,
@@ -225,26 +225,26 @@ main {
     width: 50%;
     height: auto;
     margin: 0 auto;
-    margin-top: 30px;
-    padding: 30px 60px 30px 60px;
-    border-radius: 15px;
+    margin-top: 1.875em;
+    padding: 3.75em 7.5em 3.75em 7.5em;
+    border-radius: 0.9375em;
 }
 
 .pj-title p:nth-child(1){
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .pj-title p:nth-child(2){
     text-align: center;
     color: #7c7c7c;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .pj-content {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
 .pj-content .any-file {
@@ -264,13 +264,13 @@ main {
 
 .project .line {
     width: 100%;
-    height: 1px;
+    height: 0.0625em;
     background-color: black;
-    margin: 20px 0 20px 0;
+    margin: 1.25em 0 1.25em 0;
 }
 
 .explain p {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 /*footer*/
@@ -278,7 +278,7 @@ footer {
     background-color: #435399;
     color: #ffffff;
     text-align: center;
-    padding: 30px;
+    padding: 1.875em;
 }
 
 footer .icon {
@@ -293,5 +293,5 @@ footer .icon img {
 }
 
 footer p {
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
