@@ -3,14 +3,6 @@
     margin: 0;
 }
 
-body{
-    -ms-overflow-style: none;
-    }
-    
-   ::-webkit-scrollbar {
-     display: none;
-   }
-
 /*상단 내비바*/
 nav {
     color: #435399;
@@ -200,9 +192,40 @@ main {
     animation: bannermove 5s linear infinite;
 }
 
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-container .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.img-container:hover .text {
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+
 .img-box img {
     width: 90%;
     height: auto;
+}
+
+.img-container img {
+    transition: transform 0.3s ease;
+}
+
+.img-container:hover img {
+    transform: scale(1.05);
 }
 
 @keyframes bannermove {
