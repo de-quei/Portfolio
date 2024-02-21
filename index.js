@@ -51,3 +51,21 @@ function scrollToElement(selector) {
         element.scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+const two_text = document.querySelector(".two_text");
+const textmain = () => {
+  setTimeout(() => {
+    two_text.textContent = '"백엔드 개발자 김현지입니다!";';
+  }, 0);
+
+  setTimeout(() => {
+    two_text.textContent = '"정말... 다재다능합니다..!";';
+  }, 3000);
+
+  setTimeout(() => {
+    two_text.textContent = '".... 뽑아주세요🥺";';
+  }, 6000);
+
+}
+textmain();
+setInterval(textmain, 9000);
